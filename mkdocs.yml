@@ -1,0 +1,12 @@
+site_name: הכשרות FTC
+theme:
+  name: material
+  language: he
+  palette:
+    scheme: slate
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+extra_css:
+  - stylesheets/extra.css
