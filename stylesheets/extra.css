@@ -1,0 +1,14 @@
+/* docs/stylesheets/extra.css */
+
+/* Force LTR for inline code */
+code, .md-typeset code {
+    direction: ltr;
+    unicode-bidi: embed; /* Ensures the browser isolates the LTR text */
+    text-align: left;
+}
+
+/* Optional: Ensure code blocks (pre) are also LTR if not already */
+pre, .md-typeset pre {
+    direction: ltr;
+    text-align: left;
+}
